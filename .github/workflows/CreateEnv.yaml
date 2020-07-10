@@ -2,7 +2,7 @@ name: CreateEnv
 
 on:
   repository_dispatch:
-    typse: [hoge]
+    types: [hoge]
 
 jobs:
   build:
